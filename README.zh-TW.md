@@ -39,6 +39,23 @@ python webp_to_jpg.py
 - Python 套件：`pip install -r requirements.txt`（`rotate_video.py` 不需要額外套件；`webp_to_jpg.py` 需要 Pillow；`timelapse_maker.py` 需要 opencv-python、numpy）。
 - [FFmpeg](https://ffmpeg.org/download.html)（`ffmpeg`、`ffprobe` 要在 `PATH` 內）：`rotate_video.py`、`timelapse_maker.py` 需要。
 
+## 技術來源與致謝
+
+| 用途 | 元件 | 授權 |
+|---|---|---|
+| 影片旋轉與編碼（外部程式） | [FFmpeg / ffprobe](https://ffmpeg.org/) | LGPL-2.1+ 或 GPL-2+，依建置版本 |
+| 影格處理 | [opencv-python](https://github.com/opencv/opencv-python) | Apache-2.0 |
+| 陣列運算 | [NumPy](https://numpy.org/) | BSD-3-Clause |
+| 圖片轉檔 | [Pillow](https://python-pillow.org/) | HPND |
+
+開發過程使用 [Claude Code](https://claude.com/claude-code)（Anthropic）協助。
+
+## 作者
+
+- 網站：https://shaoenstudio.com
+- 聯絡信箱：shaoenstudio@gmail.com
+- GitHub：[@shaoen901109](https://github.com/shaoen901109)
+
 ## 授權
 
 MIT，見 [LICENSE](LICENSE)。

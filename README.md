@@ -39,6 +39,23 @@ python webp_to_jpg.py
 - Python packages: `pip install -r requirements.txt` (`rotate_video.py` needs none; `webp_to_jpg.py` needs Pillow; `timelapse_maker.py` needs opencv-python and numpy).
 - [FFmpeg](https://ffmpeg.org/download.html) (`ffmpeg` and `ffprobe` on your `PATH`) for `rotate_video.py` and `timelapse_maker.py`.
 
+## Credits
+
+| Purpose | Component | License |
+|---|---|---|
+| Video rotation and encoding (external program) | [FFmpeg / ffprobe](https://ffmpeg.org/) | LGPL-2.1+ or GPL-2+, depends on the build |
+| Frame processing | [opencv-python](https://github.com/opencv/opencv-python) | Apache-2.0 |
+| Array math | [NumPy](https://numpy.org/) | BSD-3-Clause |
+| Image conversion | [Pillow](https://python-pillow.org/) | HPND |
+
+Developed with the help of [Claude Code](https://claude.com/claude-code) (Anthropic).
+
+## Author
+
+- Website: https://shaoenstudio.com
+- Email: shaoenstudio@gmail.com
+- GitHub: [@shaoen901109](https://github.com/shaoen901109)
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
