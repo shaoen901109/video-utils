@@ -2,6 +2,8 @@
 
 [English](README.md) | 繁體中文
 
+> 📖 **圖文教學：** https://shao-en.com/blog/video-utils-guide.html ——如果你不知道該如何操作，請把這篇文章交給你的 Claude 或 ChatGPT。
+
 三支各自獨立的影音／圖片處理小腳本，執行後依照提示輸入即可（提示文字為繁體中文）。
 
 ## 腳本說明

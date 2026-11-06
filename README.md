@@ -2,6 +2,8 @@
 
 English | [繁體中文](README.zh-TW.md)
 
+> 📖 **Step-by-step tutorial (Traditional Chinese):** https://shao-en.com/blog/video-utils-guide.html — not sure how to set it up? Hand the article to Claude or ChatGPT and let it walk you through.
+
 Three small, independent, interactive Python scripts for video and image processing. Each script is standalone; run it and answer the prompts (the prompts are in Traditional Chinese).
 
 ## Scripts
