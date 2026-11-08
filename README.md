@@ -41,6 +41,28 @@ python webp_to_jpg.py
 - Python packages: `pip install -r requirements.txt` (`rotate_video.py` needs none; `webp_to_jpg.py` needs Pillow; `timelapse_maker.py` needs opencv-python and numpy).
 - [FFmpeg](https://ffmpeg.org/download.html) (`ffmpeg` and `ffprobe` on your `PATH`) for `rotate_video.py` and `timelapse_maker.py`.
 
+## Verify your download
+
+Download `video-utils-v1.0.0.zip` and `SHA256SUMS.txt` from [Releases](https://github.com/shaoen901109/video-utils/releases) (use the version you actually downloaded).
+
+1. Compare the checksum in PowerShell:
+
+   ```powershell
+   Get-FileHash .\video-utils-v1.0.0.zip -Algorithm SHA256
+   ```
+
+   The `Hash` must match the string in `SHA256SUMS.txt` (letter case does not matter).
+
+2. Verify where it was built (needs [GitHub CLI](https://cli.github.com/)):
+
+   ```powershell
+   gh attestation verify .\video-utils-v1.0.0.zip --repo shaoen901109/video-utils
+   ```
+
+   A successful result means GitHub Actions built this zip from this repository's source and it was not swapped along the way.
+
+Commits marked **Verified** on GitHub are signed by the author.
+
 ## Credits
 
 | Purpose | Component | License |
